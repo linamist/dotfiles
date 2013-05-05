@@ -1,3 +1,4 @@
+//file:.conkerorrc
 require("favicon");
 // enable favicons in the mode-line
 add_hook("mode_line_hook", mode_line_adder(buffer_icon_widget), true);
