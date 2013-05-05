@@ -1,0 +1,38 @@
+require("favicon");
+// enable favicons in the mode-line
+add_hook("mode_line_hook", mode_line_adder(buffer_icon_widget), true);
+// enable favicons in the read_buffer completion list
+read_buffer_show_icons = true;
+
+// font
+session_pref("font.name.serif.x-western", "Source Sans Pro");
+
+// css
+register_user_stylesheet(
+  "data:text/css,"+escape("strong{font-weight:bold;}"))
+
+// keyboard
+// --------
+
+define_key(default_global_keymap, "j", "cmd_scrollLineDown");
+define_key(default_global_keymap, "k", "cmd_scrollLineUp");
+
+// unfocus input fields
+define_key(content_buffer_normal_keymap, "C-[", "unfocus");
+
+// reload conkerorrc with C-c r
+define_key(default_global_keymap, "C-c r", "reinit");
+
+
+
+
+require("global-overlay-keymap");
+define_key_alias("C-h", "back_space");
+define_key_alias("C-m", "return");
+define-key-alias("C-i", "tab");
+//define-key-alias("C-[", "escape");
+//define-key-alias("C-i", "cmd_scrollLineUp");
+
+
+
+
