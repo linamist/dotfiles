@@ -15,6 +15,7 @@ register_user_stylesheet(
 // keyboard
 // --------
 
+define_key(content_buffer_normal_keymap, 'v', 'view-source');
 define_key(default_global_keymap, "j", "cmd_scrollLineDown");
 define_key(default_global_keymap, "k", "cmd_scrollLineUp");
 
