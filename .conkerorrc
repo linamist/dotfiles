@@ -10,7 +10,10 @@ session_pref("font.name.serif.x-western", "Source Sans Pro");
 
 // css
 register_user_stylesheet(
-  "data:text/css,"+escape("strong{font-weight:bold;}"))
+    "data:text/css," +
+        escape(
+            "strong{font-weight:bold;} body{background-color:#e0e2db;}"
+        ))
 
 // keyboard
 // --------
