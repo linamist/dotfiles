@@ -1,3 +1,7 @@
+" Turn on hlsearch
+set hlsearch
+" Got bored with all the yellow? :nohlsearch
+
 " Turn off vi compatibilty (probably needed for smartindent?)
 set nocompatible
 
