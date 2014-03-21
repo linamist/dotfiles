@@ -30,11 +30,19 @@ force_color_prompt=yes
 #----
 
 # Icon
-export PATH=$PATH:$HOME/icon-v950/bin:$HOME/bin
+export PATH=$PATH:$HOME/icon-v950/bin
+
+# Go
+export PATH=$PATH:/usr/local/go/bin
 
 # OPAM (OCaml PAckage Manager) configuration
 . /home/username/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
+# tanagra
+if [ -z "$TANAGRA" ];  then
+    export TANAGRA="/media/My Book/home/g/dev/pksij/tanagra"
+    export PATH="/media/My Book/home/g/dev/pksij/tanagra/bin":$PATH
+fi
+
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/username/.gvm/bin/gvm-init.sh" ]] && source "/home/username/.gvm/bin/gvm-init.sh"
-
