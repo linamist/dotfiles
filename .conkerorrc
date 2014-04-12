@@ -13,7 +13,7 @@ register_user_stylesheet(
     "data:text/css," +
         escape(
             "strong{font-weight:bold;} body{background-color:#e0e2db;}"
-        ))
+        ));
 
 // keyboard
 // --------
@@ -34,9 +34,9 @@ define_key(default_global_keymap, "C-c r", "reinit");
 require("global-overlay-keymap");
 define_key_alias("C-h", "back_space");
 define_key_alias("C-m", "return");
-define-key-alias("C-i", "tab");
-//define-key-alias("C-[", "escape");
-//define-key-alias("C-i", "cmd_scrollLineUp");
+define_key_alias("C-i", "tab");
+define_key_alias("C-[", "escape");
+//define_key_alias("C-i", "cmd_scrollLineUp");
 
 
 
