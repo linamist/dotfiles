@@ -38,6 +38,9 @@ define_key_alias("C-i", "tab");
 define_key_alias("C-[", "escape");
 //define_key_alias("C-i", "cmd_scrollLineUp");
 
-
-
+// custom webjumps
+define_webjump("drae", "http://www.rae.es/recursos/diccionarios/drae");
+define_webjump("dec", "http://www.diccionari.cat/");
+define_webjump("diec", "http://dlc.iec.cat/");
+define_webjump("dcvb", "http://dcvb.iecat.net/");
 
