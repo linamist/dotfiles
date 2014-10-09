@@ -1,3 +1,5 @@
+syntax on
+
 " Turn on hlsearch
 set hlsearch
 " Got bored with all the yellow? :nohlsearch

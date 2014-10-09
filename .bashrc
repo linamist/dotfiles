@@ -28,6 +28,8 @@ force_color_prompt=yes
 
 # PATH
 #----
+# Elixir
+export PATH=$PATH:$HOME/elixir/bin
 
 # Icon
 export PATH=$PATH:$HOME/icon-v950/bin
