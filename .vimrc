@@ -40,7 +40,7 @@ hi Statement ctermfg=123 cterm=bold
 "hi StatusLineNC cterm=reverse
 hi Type ctermfg=lightyellow
 "hi VertSplit cterm=reverse
-"hi Visual ctermbg=grey 
+hi Visual ctermbg=135
 
 "hi rubyConstant ctermfg=lightyellow
 "hi rubyBoolean ctermfg=123
