@@ -35,7 +35,7 @@ export PATH=$PATH:$HOME/elixir/bin
 export PATH=$PATH:$HOME/icon-v950/bin
 
 # Go
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:$HOME/gocode/bin
 
 # OPAM (OCaml PAckage Manager) configuration
 . /home/username/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
