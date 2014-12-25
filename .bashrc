@@ -42,8 +42,8 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/gocode/bin
 
 # tanagra
 if [ -z "$TANAGRA" ];  then
-    export TANAGRA="/media/My Book/home/g/dev/pksij/tanagra"
-    export PATH="/media/My Book/home/g/dev/pksij/tanagra/bin":$PATH
+    export TANAGRA="/media/Elements/home/g/dev/pksij/tanagra"
+    export PATH="/media/Elements/home/g/dev/pksij/tanagra/bin":$PATH
 fi
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
