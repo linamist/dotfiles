@@ -40,7 +40,8 @@ define_key_alias("C-[", "escape");
 
 // custom webjumps
 define_webjump("drae", "http://www.rae.es/recursos/diccionarios/drae");
-define_webjump("dec", "http://www.diccionari.cat/");
+define_webjump("gdlc", "http://www.diccionari.cat/");
 define_webjump("diec", "http://dlc.iec.cat/");
 define_webjump("dcvb", "http://dcvb.iecat.net/");
 
+define_webjump("324", "http://www.ccma.cat/tv3/directe/324/")
