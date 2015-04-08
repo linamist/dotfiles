@@ -46,5 +46,9 @@ if [ -z "$TANAGRA" ];  then
     export PATH="/media/Elements/home/g/dev/pksij/tanagra/bin":$PATH
 fi
 
+# Scala
+export SCALA_HOME=/home/username/Downloads/scala-2.11.6
+export PATH=$PATH:$SCALA_HOME/bin
+
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/username/.gvm/bin/gvm-init.sh" ]] && source "/home/username/.gvm/bin/gvm-init.sh"
