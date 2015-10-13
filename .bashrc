@@ -28,6 +28,8 @@ force_color_prompt=yes
 
 # PATH
 #----
+export PATH=$HOME/Dropbox/bin:$PATH
+
 # Elixir
 export PATH=$PATH:$HOME/elixir/bin
 
