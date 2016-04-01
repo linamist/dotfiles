@@ -54,5 +54,3 @@ export PATH=$PATH:$SCALA_HOME/bin
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/username/.gvm/bin/gvm-init.sh" ]] && source "/home/username/.gvm/bin/gvm-init.sh"
-
-# the end
