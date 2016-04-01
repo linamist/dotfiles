@@ -45,6 +45,7 @@ define_key_alias("C-[", "escape");
 define_webjump("drae", "http://www.rae.es/recursos/diccionarios/drae");
 define_webjump("gdlc", "http://www.diccionari.cat/");
 define_webjump("diec", "http://dlc.iec.cat/");
+define_webjump("siec", "http://sinonims.iec.cat/");
 define_webjump("dcvb", "http://dcvb.iecat.net/");
 define_webjump("lexi", "http://www.lexilogos.com/");
 
