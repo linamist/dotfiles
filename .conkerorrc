@@ -8,7 +8,7 @@ read_buffer_show_icons = true;
 // font
 //session_pref("font.name.sans-serif.x-western", "Source Sans Pro");
 session_pref("font.name.sans-serif.x-western", "Liberation Sans Narrow");
-session_pref("font.name.serif.x-western", "Droid Serif");
+session_pref("font.name.serif.x-western", "Noto Serif");
 session_pref("font.name.monospace.x-western", "Anka/Coder Narrow");
 
 // css
